@@ -44,6 +44,8 @@ search_btn.addEventListener("click", async function(){
 
     let divUser=document.createElement("div")
 
+    users["users"][0]["userID"]
+    users.user[0]
     for (let user of users["users"]){
         if(user["userId"]===parseInt(search)){
         divUser.innerHTML=`<h2>${user.firstName} ${user.lastName}</h2>
